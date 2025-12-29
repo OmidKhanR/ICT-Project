@@ -1,11 +1,12 @@
 
 import { Link } from 'react-router-dom'
-import "./home.css"
-const Contact = () => {
+const Login = () => {
   return (
-   <div className='large'>
+    <div>
+        <div className='large'>
       <div className='small'>
         <img src="ka.jpeg" alt="" className='ka' />
+        
       <ul>
        <li><Link to="/">Home</Link></li>
        <li><Link to="/About">About</Link></li>
@@ -15,11 +16,23 @@ const Contact = () => {
       </ul>
    
       </div>
-      <div className='main'><h1>Now i am in Login</h1></div>
-    
+
+    </div>
+    <div className="Login">
+
+    <div className="action">
+     <h2>Login Page</h2>
+     <label className='User'>Username</label>
+     <input type="text"  className='tt'/>
+     <label className='Pass'>Password</label>
+     <input type="Password" />
+     <button>Login</button>
+    <p>Dont have account</p><Link to="/" className='Link'>Sign Up</Link>
+    </div>
+    </div>
+
     </div>
   )
 }
 
-export default Contact
-
+export default Login

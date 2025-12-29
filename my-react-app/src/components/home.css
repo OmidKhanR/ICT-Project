@@ -1,8 +1,10 @@
+
 .large{
     height: 100px;
     width: 1000px;
     background-color: rgb(19, 35, 101);
     border-radius: 20px;
+    margin-top: -290px;
     
    
 }
@@ -37,12 +39,7 @@ top: 110px;
 right: 100px;
 }
 
-.Login{
-color: white;
-position: relative;
-top: 110px;
-right: 100px;
-}
+
 
 .ka{
 height: 35px;
@@ -180,173 +177,100 @@ border-radius: 20px;
     top: 10px;
 }
 
-/* the about page css code is here*/
+.Login{
 
-/* About Page Styles */
-.about-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.about-content {
-  flex: 1;
-  padding: 40px 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  width: 100%;
-}
-
-.about-hero {
-  text-align: center;
-  padding: 60px 20px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  border-radius: 10px;
-  margin-bottom: 40px;
-}
-
-.about-hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-
-.about-hero p {
-  font-size: 1.2rem;
-  opacity: 0.9;
-}
-
-.about-details {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  margin-bottom: 40px;
-}
-
-.about-card {
-  background: white;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.about-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-}
-
-.about-card h2 {
-  color: #333;
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-  border-bottom: 2px solid #667eea;
-  padding-bottom: 10px;
-}
-
-.about-card p {
-  color: #666;
-  line-height: 1.6;
-  font-size: 1rem;
-}
-
-.objectives-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.objectives-list li {
-  padding: 8px 0;
-  padding-left: 25px;
-  position: relative;
-  color: #666;
-}
-
-.objectives-list li:before {
-  content: "✓";
-  position: absolute;
-  left: 0;
-  color: #667eea;
-  font-weight: bold;
-}
-
-.tech-stack {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 15px;
-}
-
-.tech-item {
-  background: #667eea;
-  color: white;
-  padding: 8px 15px;
+  height: 500px;
+  width: 1000px;
+  background-color: rgb(28, 28, 137);
   border-radius: 20px;
-  font-size: 0.9rem;
-  font-weight: 500;
+  margin-top: 5px;
+  margin-bottom: -320px;
 }
 
-.about-card a {
-  color: #667eea;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
+.action
+{
+  height: 400px;
+  width: 290px;
+  background-color:rgb(20, 126, 208);
+  border-radius: 20px;
+  position: absolute;
+  left: 480px;
+  bottom: 30px;
 }
 
-.about-card a:hover {
-  color: #764ba2;
-  text-decoration: underline;
+.action h2{
+width: 150px;
+margin-left: 70px;
 }
 
-.about-footer {
-  text-align: center;
-  padding: 20px;
-  background: #f8f9fa;
-  color: #666;
-  margin-top: auto;
-  border-top: 1px solid #e9ecef;
+.User{
+ font-size: 20px;
+ font-weight:bold;
+ width:30px ;
+ position: absolute;
+ top:60px;
+ left: 98px;
+ 
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .about-hero {
-    padding: 40px 15px;
-  }
+.action input{
+  height: 60px;
+  width: 200px;
+  border-radius: 10px;
+  position: absolute;
+  top: 145px;
+  left: 30px;
+  border:none;
+ outline: none;
+}
+ 
 
-  .about-hero h1 {
-    font-size: 2rem;
-  }
-
-  .about-hero p {
-    font-size: 1rem;
-  }
-
-  .about-details {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .about-card {
-    padding: 20px;
-  }
-
-  .about-content {
-    padding: 20px 15px;
-  }
+.Pass{
+ font-size: 20px;
+ font-weight:bold;
+ position: absolute;
+ top: 150px;
+ left: 100px;
 }
 
-@media (max-width: 480px) {
-  .about-hero h1 {
-    font-size: 1.8rem;
-  }
+.action input{
+ height:30px ;
+ width:250px  ;
+ border-radius: 10px ;
+ position: absolute;
+ top: 175px;
+ left: 30px;
+ border:none;
+ outline: none;
+}
 
-  .tech-stack {
-    justify-content: center;
-  }
+.action button{
+height:40px;
+width: 100px;
+border-radius: 20px;
+background-color: rgb(8, 11, 40);
+color: white;
+font-weight: bold;
+position: absolute;
+top: 250px;
+left: 100px;
+border: none;
+cursor: pointer;
 
-  .tech-item {
-    font-size: 0.8rem;
-    padding: 6px 12px;
-  }
+}
+.action button:hover{
+  background-color: rgb(8, 11, 40);
+
+}
+
+.action p{
+position: absolute;
+top: 320px;
+left: 80px;
+}
+
+.Link{
+  position: absolute;
+  top: 370px;
+  left: 80px;
 }
