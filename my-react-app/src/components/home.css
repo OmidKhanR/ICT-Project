@@ -80,15 +80,15 @@ background:linear-gradient(to top, rgb(0, 0,0,0.5)50%,rgb(0, 0,0, 0.5)50%),url(l
 
     color: white;
     position:absolute;
-    top: 200px;
-    left: 450px;
+    top: 90px;
+    left:565px;
 }
 .main h2{
 
     color: white;
     position: absolute;
-    top: 300px;
-    left: 260px;
+    top: 200px;
+    left: 400px;
 }
 
 .Pic3{
@@ -97,7 +97,7 @@ background:linear-gradient(to top, rgb(0, 0,0,0.5)50%,rgb(0, 0,0, 0.5)50%),url(l
     border-radius: 20px;
     position: absolute;
     top: 430px;
-    left: 20px;
+    left: 150px;
     
 }
 
@@ -107,7 +107,7 @@ width: 300px;
 border-radius: 20px;
 position: absolute;
 top: 430px;
-left: 345px;
+left: 470px;
 }
 
 .Pic1{
@@ -116,7 +116,7 @@ left: 345px;
     border-radius: 20px;
     position: absolute;
     top: 430px;
-    left: 670px;
+    left: 790px;
 
 }
 .News1{
@@ -126,7 +126,7 @@ width: 300px;
 border-radius: 20px;
 position: absolute;
 top: 757px;
-left: 710px;
+left: 790px;
 }
 
 
@@ -144,7 +144,7 @@ width: 300px;
 border-radius: 20px;
 position: absolute;
 top: 757px;
-left: 350px;
+left: 460px;
 }
 
 .News1 img{
@@ -201,12 +201,13 @@ border-radius: 20px;
 .action h2{
 width: 150px;
 margin-left: 70px;
+
 }
 
 .User{
  font-size: 20px;
  font-weight:bold;
- width:30px ;
+ width:100px ;
  position: absolute;
  top:60px;
  left: 98px;
@@ -222,6 +223,7 @@ margin-left: 70px;
   left: 30px;
   border:none;
  outline: none;
+ 
 }
  
 
@@ -231,6 +233,7 @@ margin-left: 70px;
  position: absolute;
  top: 150px;
  left: 100px;
+ 
 }
 
 .action input{
@@ -259,18 +262,845 @@ cursor: pointer;
 
 }
 .action button:hover{
-  background-color: rgb(8, 11, 40);
+  background-color: rgb(174, 177, 204);
 
 }
 
 .action p{
 position: absolute;
-top: 320px;
+top: 290px;
 left: 80px;
 }
 
 .Link{
   position: absolute;
-  top: 370px;
+  top: 340px;
+  left: 120px;
+  color: #02080e;
+}
+
+.ttt{
+margin-top: -70px;
+
+}
+
+/*about */
+
+/* AboutPage.css */
+
+/* Reset and Base Styles */
+
+
+/* Hero Section */
+.hero-about {
+  text-align: center;
+  padding: 80px 0 60px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 20px;
+  margin: 20px 0 40px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 800;
+  animation: fadeInUp 1s ease;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+  animation: fadeInUp 1s ease 0.2s both;
+}
+
+.hero-description {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  animation: fadeInUp 1s ease 0.4s both;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 40px;
+  animation: fadeInUp 1s ease 0.6s both;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item .counter {
+  font-size: 3rem;
+  font-weight: bold;
+  display: block;
+  color: #fff;
+}
+
+.stat-item p {
+  margin-top: 10px;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Mission Section */
+.mission-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin: 60px 0;
+}
+
+.mission-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.mission-icon {
+  font-size: 3rem;
+  color: #667eea;
+  margin-bottom: 20px;
+}
+
+.mission-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.mission-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Timeline Section */
+.timeline-section {
+  margin: 80px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #333;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  border-radius: 2px;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(to bottom, #667eea, #764ba2);
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+  width: 50%;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.timeline-item.left {
+  left: 0;
+}
+
+.timeline-item.right {
+  left: 50%;
+}
+
+.timeline-content {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  position: relative;
+}
+
+.timeline-year {
+  position: absolute;
+  top: -15px;
+  background: #667eea;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.timeline-item.left .timeline-year {
+  right: -15px;
+}
+
+.timeline-item.right .timeline-year {
+  left: -15px;
+}
+
+.timeline-content h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.timeline-content p {
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Technology Stack */
+.tech-section {
+  margin: 80px 0;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.tech-card {
+  background: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.tech-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--tech-color);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.tech-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.tech-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Features Section */
+.features-section {
+  margin: 80px 0;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.feature-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #667eea;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.feature-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Developer Section */
+.developer-section {
+  margin: 80px 0;
+}
+
+.developer-card {
+  max-width: 500px;
+  margin: 0 auto;
+  background: white;
+  padding: 50px 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.developer-avatar {
+  width: 120px;
+  height: 120px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border-radius: 50%;
+  margin: 0 auto 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.developer-card h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.developer-role {
+  color: #667eea;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.developer-bio {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.developer-skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.developer-skills span {
+  background: #f0f2ff;
+  color: #667eea;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #333;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.github-link:hover {
+  background: #000;
+  transform: scale(1.05);
+}
+
+/* Future Plans */
+.future-section {
+  margin: 80px 0;
+}
+
+.roadmap {
+  max-width: 800px;
+  margin: 40px auto 0;
+}
+
+.roadmap-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.roadmap-status {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.roadmap-item.completed .roadmap-status {
+  background: #4CAF50;
+  color: white;
+}
+
+.roadmap-item.current .roadmap-status {
+  background: #2196F3;
+  color: white;
+  animation: pulse 2s infinite;
+}
+
+.roadmap-item.pending .roadmap-status {
+  background: #e0e0e0;
+  color: #666;
+}
+
+.roadmap-content h4 {
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.roadmap-content p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* CTA Section */
+.cta-section {
+  text-align: center;
+  padding: 60px 40px;
+  background: linear-gradient(135deg, #f0f2ff 0%, #e3e6ff 100%);
+  border-radius: 20px;
+  margin: 40px 0 80px;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 15px 35px;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #667eea;
+  border: 2px solid #667eea;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+}
+
+.btn-secondary:hover {
+  background: #667eea;
+  color: white;
+  transform: translateY(-3px);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(33, 150, 243, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(33, 150, 243, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(33, 150, 243, 0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .hero-stats {
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .timeline::before {
+    left: 30px;
+  }
+  
+  .timeline-item {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 20px;
+  }
+  
+  .timeline-item.left, .timeline-item.right {
+    left: 0;
+  }
+  
+  .timeline-item.left .timeline-year,
+  .timeline-item.right .timeline-year {
+    left: -40px;
+  }
+  
+  .tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn-primary, .btn-secondary {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-about {
+    padding: 40px 20px;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .tech-card {
+    padding: 20px 15px;
+  }
+  
+  .tech-icon {
+    font-size: 2rem;
+  }
+}
+
+.Cont1{
+height: 250px;
+width: 300px;
+border-radius: 10px;
+position: absolute;
+top: 270px;
+left: 150px;
+background-color: rgb(236, 238, 241);
+
+}
+
+.Cont2{
+height: 250px;
+width: 300px;
+border-radius: 10px;
+position: absolute;
+top: 270px;
+left: 480px;
+background-color: rgb(236, 238, 241);
+
+}
+.Cont3{
+height: 250px;
+width: 300px;
+border-radius: 10px;
+position: absolute;
+top: 270px;
+left: 810px;
+background-color: rgb(236, 238, 241);
+}
+.Icon{
+  font-size: 50px;
+  color: #2196F3;
+  position: absolute;
+  top: 15px;
+  left: 120px;
+}
+
+.Cont1:hover{
+  box-shadow: rgb(213, 213, 218);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  background-color:#d1cede;
+}
+
+.Cont2:hover{
+  box-shadow: rgb(213, 213, 218);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  background-color:#d1cede;
+}
+.Cont1:hover{
+  box-shadow: rgb(213, 213, 218);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  background-color:#d1cede;
+}
+
+.Cont1 h2{
+position: absolute;
+ color: #2196F3;
+ top: 45px;
+left: 115px;
+}
+
+.Cont1 h3{
+position: absolute;
+ color: #2196F3;
+ top: 90px;
+left: 70px;
+}
+
+.Icon2 {
+font-size: 50px;
+  color: #2196F3;
+  position: absolute;
+  top: 15px;
+  left: 120px;
+}
+
+.Cont2 h2{
+  color: #2196F3;
+  position: absolute;
+  top: 88px;
   left: 80px;
+}
+
+.Cont3 h3{
+  color: #2196F3;
+  position: absolute;
+  top: 90px;
+  left: 50px;
+}
+
+.Icon3{
+  font-size: 50px;
+color: #2196F3;
+  position: absolute;
+  top: 15px;
+  left: 120px;
+}
+
+/*Sign up */
+
+.Signup-Login{
+
+  height: 500px;
+  width: 1000px;
+  background-color: rgb(28, 28, 137);
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-bottom: -320px;
+}
+
+.Signup-action
+{
+  height: 450px;
+  width: 290px;
+  background-color:rgb(20, 126, 208);
+  border-radius: 20px;
+  position: absolute;
+  left: 480px;
+  bottom: 30px;
+}
+
+.Signup-action h2{
+width: 150px;
+margin-left: 70px;
+
+}
+
+
+
+.Signup-action input{
+  height: 60px;
+  width: 200px;
+  border-radius: 10px;
+  position: absolute;
+  top: 145px;
+  left: 30px;
+  border:none;
+ outline: none;
+ 
+}
+.Signup-Password{
+font-size: 20px;
+font-weight:bold;
+position: absolute;
+top: 140px;
+left: 30px;
+border-radius: 20px;
+width: 100px;
+} 
+
+.Signup-action input{
+ height:30px ;
+ width:250px  ;
+ border-radius: 10px ;
+ position: absolute;
+ top: 175px;
+ left: 30px;
+ border:none;
+ outline: none;
+}
+
+.Signup-action button{
+height:40px;
+width: 100px;
+border-radius: 20px;
+background-color: rgb(8, 11, 40);
+color: white;
+font-weight: bold;
+position: absolute;
+top: 390px;
+left: 90px;
+border: none;
+cursor: pointer;
+
+}
+.Signup-action button:hover{
+  background-color: rgb(174, 177, 204);
+
+}
+
+.Signup-action p{
+position: absolute;
+top: 290px;
+left: 80px;
+}
+
+.Link{
+  position: absolute;
+  top: 360px;
+  left: 120px;
+  color: #02080e;
+}
+
+.Signup-Fullname{
+font-size: 20px;
+font-weight:bold;
+position: absolute;
+top: 70px;
+left: 30px;
+border-radius: 20px;
+width: 100px;
+}
+
+
+.Signup-Username{
+ font-size: 20px;
+ font-weight:bold;
+ position: absolute;
+ top: 210px;
+ left: 30px;
+ 
+}
+
+.text1{
+margin-top: -70px;
+
+}
+
+.text2{
+margin-top: 70px;
+
+}
+
+.Password1{
+margin-top: 140px;
+
+}
+
+.Signup-ConfirmePassword{
+ font-size: 20px;
+ font-weight:bold;
+ width:200px;
+ position: absolute;
+ top:280px;
+ left: 20px;
+ 
 }
